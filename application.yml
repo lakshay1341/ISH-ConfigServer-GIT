@@ -1,0 +1,17 @@
+# ISH-ApplicationRegistrationService.yml
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/InsuranceSystemForHealth
+    username: root
+    password: root
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+# Application specific properties
+ar:
+  ssa-web:
+    url: http://localhost:9090/ssa-web-api/find/{ssn}
+  state: california
