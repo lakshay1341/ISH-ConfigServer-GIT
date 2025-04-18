@@ -88,7 +88,6 @@ spring:
     host: smtp.gmail.com
     port: 587
     username: lakshaychaudhary2003@gmail.com
-    password: your-app-password
     properties:
       mail:
         transport:
@@ -152,7 +151,6 @@ spring:
     host: smtp.gmail.com
     port: 587
     username: lakshaychaudhary2003@gmail.com
-    password: your-app-password
     properties:
       mail:
         transport:
